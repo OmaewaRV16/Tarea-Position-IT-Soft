@@ -1,0 +1,162 @@
+@media (max-width: 768px) {
+    .margen {
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #ff3b00;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        text-align: center;
+    }
+
+    .menu ul li {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .menu ul li a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .barritas {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .articulos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articulo {
+        width: 90%;
+        height: auto;
+    }
+
+    .imagen-fondo figure {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagen-fondo figure img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .icono {
+        width: 70px;
+        top: 250px;
+        left: auto;
+    }
+
+    .texto {
+        padding: 15px;
+    }
+
+    .texto h3 {
+        font-size: 16px;
+    }
+
+    .texto p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .btn {
+        justify-content: center;
+    }
+
+    .btn a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .flecha {
+        bottom: 15px;
+        right: 15px;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .footer {
+        display: block;
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 20px 10px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .footer p {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 120px;
+    }
+
+    .menu ul {
+        top: 60px;
+    }
+
+    .articulo {
+        width: 95%;
+    }
+
+    .imagen-fondo figure {
+        width: 90%;
+        height: auto;
+    }
+
+    .texto {
+        padding: 50px;
+    }
+
+    .texto h3 {
+        font-size: 14px;
+    }
+
+    .texto p {
+        font-size: 12px;
+    }
+
+    .btn a {
+        font-size: 12px;
+    }
+
+    .flecha {
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .footer {
+        font-size: 12px;
+        padding: 15px 5px;
+    }
+}
